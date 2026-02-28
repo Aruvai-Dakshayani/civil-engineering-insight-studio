@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Civil Engineering Insights Studio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Civil Engineering Insights Studio</div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>AI-Powered Civil Engineering Predictions</h1>
+        <p>Smart analysis for structural safety, material strength, and project insights.</p>
+        <button onclick="scrollToPrediction()">Start Prediction</button>
+    </section>
+
+    <!-- PREDICTION SECTION -->
+    <section class="prediction" id="prediction">
+        <h2>Prediction Module</h2>
+
+        <div class="card">
+            <input type="number" id="inputValue" placeholder="Enter Structural Load Value">
+            <button onclick="predict()">Predict Result</button>
+            <h3 id="result"></h3>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Civil Engineering Insights Studio | Generative AI Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
